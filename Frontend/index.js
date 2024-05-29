@@ -1,6 +1,6 @@
 async function analyzeComments() {
     const videoId = document.getElementById('videoId').value;
-    const response = await fetch('https://active-mink-helped.ngrok-free.app /analyze', {
+    const response = await fetch('https://active-mink-helped.ngrok-free.app/analyze', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
